@@ -86,7 +86,7 @@ export default function App() {
   const celebrationEmojis = ['🎉', '🌟', '🎊', '✨', '🌈', '💫', '🎈', '🏆'];
 
   return (
-    <div className="flex min-h-0 flex-1 flex-col overflow-y-auto bg-gradient-to-b from-sky-200 via-sky-100 to-amber-50 p-4 md:p-8">
+    <div className="flex w-full min-h-0 flex-1 flex-col overflow-y-auto bg-gradient-to-b from-sky-200 via-sky-100 to-amber-50 p-4 md:p-8">
       {/* Celebration Overlay */}
       {celebrating && (
         <div className="fixed inset-0 pointer-events-none z-50 flex items-center justify-center">
